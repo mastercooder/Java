@@ -1,0 +1,74 @@
+/*
+Q. Convert the following if-else-if construct into switch case:
+
+  if(var == 1)
+ System.out.println("good");
+ else if(var == 2)
+ System.out.println("better");
+ else if(var == 3)
+ System.out.println("best");
+ else
+ System.out.println("invalid");
+ */
+
+
+/*
+public class Question1 {
+    public static void main(String args[]){
+        int m = 1;
+        switch(m){
+            if (m==0){
+                x = x+2;
+                System.out.println("X= " x);
+            }
+            else if (m==1){
+                x = x+4;
+                System.out.println("X= "x);
+            }
+            else if (m==2);
+            x = x+6;
+            System.out.println("X= "x);
+        }
+    }
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*
+ Q2. Find the output in the following code snippet:
+
+    int ch=2;
+    switch(ch) {
+    case 1: System.out.println("All courses");
+    Break;
+    case 2: System.out.println("Simply Coding ");
+    case 3: System.out.println("Best Study Material");
+    }
+
+Ans:    Simple Coding
+        Beast Study Material 
+
+ */
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+ /* 
+ Q3. Rewrite the following program code using suitable 'if' command.
+
+    switch(m){
+    case 0:
+    x=x+2;
+    System.out.println(“X=” x);
+    break;
+    case 1:
+    x=x+4;
+    System.out.println(“X=” x);
+    break;
+    case 2:
+    x=x+6;
+    System.out.println(“X=” x);
+    break; }
+
+*/

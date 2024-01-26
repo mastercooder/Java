@@ -1,0 +1,186 @@
+        
+
+
+
+        int n = 25;
+        int fd = n%10;
+        int st = n/10;
+        System.out.println(st);
+
+
+
+
+
+        int n = 2;
+        int r = n%2;
+        
+        if (r==0){
+            System.out.println("It's an even number");
+        }
+        else{
+            System.out.println("It's not an even number");
+        }
+
+
+
+
+
+        int yr = 2020;
+        int r = yr%4;
+        
+        if (r==0){
+            System.out.println("It's a leap year");
+        }
+        else{
+            System.out.println("It's not a leap year");
+        }
+        
+
+
+
+
+        int a = 10;
+        int b = 20;
+        
+        if (a>b){
+            System.out.println("The first value is gratest");
+        }
+        else if (b>a){
+            System.out.println("The second value is gartest");
+        }
+
+
+
+
+
+        int n = 44;
+        int up = n%10;
+        int tp = n/10;
+        
+        if (up==tp){
+            System.out.println("It is a palindrone");
+        }
+        else if (up!=tp){
+            System.out.println("It's not a parlindorne");
+        }
+
+
+
+
+
+        int n = 54;
+        int up = n%10;
+        int tp = n/10;
+        
+        int s = (up*up*up) + (tp*tp*tp);
+                System.out.println(+s); 
+
+
+
+
+        
+
+                String S1 = ("Master ");
+                String S2 = ("code ");
+                System.out.println(S1+S2);
+
+        
+
+
+                char alpha = 'e';
+        
+        if (alpha=='a' || 
+                alpha=='e' ||  
+                alpha=='i' ||
+                alpha=='o' ||
+                alpha=='v') {
+        System.out.println("Vovel characher");
+    }
+        else{
+                System.out.println("Consonant");
+                }
+
+
+
+
+
+                String s1 = "OPJS";
+        
+        if (s1.equals("OPJS")==true){
+            System.out.println("Username is correct");
+        }
+        else if (s1.equals("opjs")==true){
+            System.out.println("Usernaem correct");
+        }
+        else{
+            System.out.println("Username is not correct");
+        }
+
+
+
+
+
+
+        String t1 = "opjs";
+        String t2 = "raigarh";
+        
+        if (t1.equals("opjs")==true){
+            if (t2.equals("raigarh")==true){
+                System.out.println("Succesfully Login");
+            }
+        }
+        else{
+            System.out.println("Username or Password is Incalid");
+        }
+
+
+
+
+
+
+        int n = 2;
+        
+        if (n==1){
+            System.out.println("One");
+        }
+        else if (n==2){
+            System.out.println("TWO");
+        }
+        else if (n==3){
+            System.out.println("THREE");
+        }
+        else if (n==4){
+            System.out.println("FOUR");
+        }
+        else if (n==5){
+            System.out.println("FIVE");
+        }
+        else{
+            System.out.println("Number is more them five");
+        }
+
+
+
+
+
+
+        int a = 10;
+        int b = 5;
+        char opr = '*';
+        
+        if (opr == '+'){
+            System.out.println("SUM " + (a+b));
+        }
+        else if (opr == '-'){
+            System.out.println("Subtraction " + (a-b));
+        }
+        else if (opr == '*'){
+            System.out.println("Multiplication " + (a*b));
+        }
+        else if (opr == '/'){
+            System.out.println("Divison " + (a+b));
+        }
+        else{
+            System.out.println("Invled Operator");
+        }
+
